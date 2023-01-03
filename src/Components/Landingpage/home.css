@@ -1,0 +1,16 @@
+
+
+
+.homeCards{
+    display: flex;
+    align-items: center;
+    background-color: rgb(172, 81, 233);
+    color: white;
+}
+.text{
+    font-size: 25px;
+    margin: 40px;
+}
+h4{
+    margin: 20px 0;
+}

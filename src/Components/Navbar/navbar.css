@@ -1,0 +1,104 @@
+.NavbarContainer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: rgb(241, 236, 236);
+    border-bottom: 2px solid rgb(156, 212, 160);
+}
+
+.NavbarLogo{
+    display: flex;
+    flex: 3;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.NavbarLogoImg{
+    width: 35px;
+    height: 35px;
+    
+}
+.NavbarLogoText{
+    font-size: 25px;
+    font-weight: 700;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+}
+
+
+
+.NavbarPage{
+    flex: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.NavBarPageLists{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;  
+}
+.NavbarPageList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   
+}
+.Navbarlink{
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.NavrbarButtons{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.NavbarLoginButton{
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid rgb(123, 119, 119);
+    border-radius: 10px;
+    color: black;
+}
+.NavbarLoginButton:hover{
+    background-color: black;
+    color: white;
+    position: relative;
+    top: -3px;
+    transition: 2s;
+    border: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.Navbarlink:hover{
+    position: relative;
+    bottom: -2px;
+    transition: 2s;
+    background-color: blue;
+    color: white;
+}
